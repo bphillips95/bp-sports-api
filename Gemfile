@@ -54,3 +54,5 @@ gem "faker"
 
 gem 'stripe' 
 gem 'dotenv'
+
+gem "dockerfile-rails", ">= 1.5", :group => :development

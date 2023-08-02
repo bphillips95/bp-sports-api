@@ -83,6 +83,8 @@ GEM
     debug (1.8.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
+    dockerfile-rails (1.5.2)
+      rails
     dotenv (2.8.1)
     erubi (1.12.0)
     faker (3.2.0)
@@ -120,6 +122,8 @@ GEM
       net-protocol
     nio4r (2.5.9)
     nokogiri (1.15.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.3-x86_64-linux)
       racc (~> 1.4)
     pg (1.5.3)
     puma (5.6.6)
@@ -174,12 +178,14 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   active_model_serializers
   bcrypt (~> 3.1.7)
   bootsnap
   debug
+  dockerfile-rails (>= 1.5)
   dotenv
   faker
   jwt
