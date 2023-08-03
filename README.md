@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://bp-sports.netlify.app/
 
-Things you may want to cover:
+Ruby on Rails back-end, front end could be found at https://github.com/bphillips95/bp-sports-frontend.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Uses Serializers to render specific information to the front-end.
